@@ -5,5 +5,7 @@ function test(t) {
     return t;
 }
 
+
 let t;
 console.log(test(t));
+

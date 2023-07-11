@@ -14,7 +14,7 @@ console.log(parseFloat('ABC'));
 
 console.log("********** More Conversion Examples **********");
 console.log(parseInt('1.5'));
-console.log(parseInt('1 + 2'));
+console.log(parseInt('1 + 1'));
 console.log(parseInt(`${1+1}`));
 
 console.log("********** Converting numbers to strings **********");
@@ -22,3 +22,6 @@ console.log(num1.toString());
 console.log(flo1.toString());
 console.log((100).toString());
 
+function wow() {
+    alert("Wow!");
+}

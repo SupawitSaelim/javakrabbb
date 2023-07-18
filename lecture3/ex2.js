@@ -1,5 +1,11 @@
 let furniture = ['Table', 'Chairs', 'Couch'];
 
-furniture.forEach(i => {
-    console.log(i)
-});
+let index = 0;
+while (index < furniture.length) {
+    let text = furniture[index].split('');
+    for (let i = 0; i < text.length; i++) {
+        console.log(text[i]);
+    }
+    index++;
+}
+    

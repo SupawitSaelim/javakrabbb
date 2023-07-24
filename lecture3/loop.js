@@ -17,8 +17,19 @@ for (index = 0; index < names.length; index++) {
 }
 
 //for of loop
-console.log('for of loop');
+console.log('\n\nfor of loop');
 for (const name of names) {
     console.log(name);
 }
+
+
+//do while loop
+console.log('\n\ndo while loop');
+index = 0;
+do {
+    console.log(names[index]);
+    index++;
+}
+while (index < names.length);
+
 

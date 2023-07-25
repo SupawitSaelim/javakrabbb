@@ -17,11 +17,17 @@ function trimzero (str) {
     }
     return str.trim().replace(/^0+|0+$/g,'').replace(/\.$/g,'');
 }
-rl.question('Enter a string: ', (answer) => {
-    number = answer;
-    console.log("The input string is " + number + " output is " + trimzero(number));
-    rl.close();
-});
+
+
+try {
+    rl.question('Enter a string: ', (answer) => {
+        number = answer;
+        console.log("The input string is " + number + " output is " + trimzero(number));
+        rl.close();
+    });
+} catch (error) {
+    console.error(error);
+} 
 
 
 

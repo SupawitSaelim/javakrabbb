@@ -7,6 +7,7 @@ class Dog {
         console.log("This is " + this._name + "!");
     }
 
+    // static method means that you don't need to create an instance of the class to use it
     static bark() {
         console.log("Woof!");
     }
@@ -16,6 +17,7 @@ const myDog = new Dog("Buusterr");
 myDog.introduce();
 
 Dog.bark();
+myDog.bark(); // Error: myDog.bark is not a function
 
 /*
 ขั้นตอนในโค้ดด้านบนมีดังนี้:

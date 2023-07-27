@@ -15,7 +15,7 @@ function trimzero (str) {
     if (str == "00.00") {
         return "0";
     }
-    return str.trim().replace(/^0+|0+$/g,'').replace(/\.$/g,'');
+    return parseFloat(str);
 }
 
 

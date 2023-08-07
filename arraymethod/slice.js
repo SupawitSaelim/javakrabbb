@@ -1,3 +1,4 @@
+// method slice() use to copy array element from start index to end index
 const myarr = ['first', 'second', 'third', 'forth'];
 
 let newarr = myarr.slice(1,3);

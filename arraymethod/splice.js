@@ -1,3 +1,4 @@
+// const  newArray = array.splice(start, deleteCount, item1, item2, ...);
 const myarr = ['first', 'second', 'third', 'forth'];
 
 const result = myarr.splice(1,0,'1.5');

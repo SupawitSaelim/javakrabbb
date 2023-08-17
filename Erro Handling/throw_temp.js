@@ -1,3 +1,4 @@
+//throw is not console.log, use web console to see the error message
 function checkTemperature(temp) {
     if (temp < 36.5) {
         throw new Error('Too low temperature');

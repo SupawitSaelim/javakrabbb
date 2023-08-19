@@ -5,3 +5,6 @@ setTimeout(
     3000
 );
 
+/*
+    setTimeout(callback,time)
+*/

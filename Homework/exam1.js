@@ -1,5 +1,3 @@
-//console.log(calculateExpression("2 + 3 - 1")); // 4
-//console.log(calculateExpression("5 - 1 + 2 + 10 - 6")); // 10
 function calculateExpression(str){
     let result = 0;
     let arr = str.split(" "); // ["2", "+", "3", "-", "1"]

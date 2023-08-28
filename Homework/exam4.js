@@ -12,6 +12,6 @@ str = 379
 str2 = 2
 str3 = 377401
 
-console.log(MaxHigh(str))
-console.log(MaxHigh(str2))
-console.log(MaxHigh(str3))
+console.log(MaxHigh(str)) // Output: 9
+console.log(MaxHigh(str2)) // Output: 2
+console.log(MaxHigh(str3)) // Output: 7

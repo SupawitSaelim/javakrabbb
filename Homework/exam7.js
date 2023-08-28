@@ -6,7 +6,6 @@ function getBudgets (value) {
     return result
 }
 
-
 console.log(getBudgets([
     { name: "John", age: 21, budget: 23000},
     { name: "Steve", age: 32, budget: 40000},

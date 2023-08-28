@@ -18,7 +18,7 @@ const MoveCap = (str) => {
 
 
 
-console.log(MoveCap('hApPy'))
-console.log(MoveCap('moveMENT'))
-console.log(MoveCap('shOrtCAKE'))
-
+console.log(MoveCap('hApPy')) // Output: APhpy
+console.log(MoveCap('moveMENT')) // Output: MENTmove
+console.log(MoveCap('shOrtCAKE')) // Output: OCAKEshrt
+ 

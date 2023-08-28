@@ -15,6 +15,10 @@ function frequencySort(str) {
     return sortedChars.join('');
 }
 
-console.log(frequencySort('tree'));   // eert
-console.log(frequencySort('cccaaa')); // aaaccc
-console.log(frequencySort('Aabb'));   // bbAa
+console.log(frequencySort('tree'));   // Output: "eetr"
+console.log(frequencySort('cccaaa')); // Output: "aaaccc"
+console.log(frequencySort('Aabb'));   // Output: "bbAa"
+
+
+
+

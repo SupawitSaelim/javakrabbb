@@ -21,3 +21,4 @@ function calculateExpression(str){
 console.log(calculateExpression("2 + 3 - 1")); 
 console.log(calculateExpression("5 - 1 + 2 + 10 * 6"));
 console.log(calculateExpression("5 - 1 + 2 + 10 / 6"));
+
